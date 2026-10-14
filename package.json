@@ -4,6 +4,9 @@
   "private": true,
   "scripts": {
     "postinstall": "node probe.cjs postinstall",
-    "dev": "node probe.cjs dev && node server.cjs"
+    "dev": "node probe.cjs dev && vite --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0"
   }
 }
